@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/firstPage/firstPage",
+    "pages/Scale/Scale",
+    "pages/wrongBook/wrongBook"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "视唱练耳——音阶",
+    "navigationBarTextStyle": "black"
+  }
+}

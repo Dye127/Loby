@@ -1,0 +1,17 @@
+<template name="showMsg">
+<view class="{{Tname}}">{{titleName}}</view>
+
+<view class="audio-view">
+  <audio src="{{question.title}}" action="{{audioAction}}" bindended="playEnd" hidden="{{hidePEText?true:false}}">{{play_end}}</audio>
+</view>
+<view>
+  <button class='play_button' size='mini' bindtap="audioPlay">播放</button>
+</view>
+<view class='an_content'>
+  <button wx:for="{{answer}}" data-id='{{item.id}}' data-at='{{item.answerType}}' type="{{item.resultFlag?item.answerType:default}}" wx:for-item="item" wx:key="key" size='mini' bindtap='onClick' disabled="{{disabled}}" style='{{disabled?"color:#949A9B":"color:black"}}'>{{item.title}}</button>
+</view>
+<button class='reAn' wx:if="{{failureRe}}" bindtap='reAnswer'>重新回答</button>
+<button class='newQ' wx:if="{{success}}" hidden="{{hideNText?true:false}}" bindtap='nextQuestion'>新题目</button>
+<button class='showAns' wx:if="{{failureSh}}" bindtap='showAnswer'>查看答案{{shAnswer}}</button>
+
+</template>

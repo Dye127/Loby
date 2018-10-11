@@ -1,0 +1,13 @@
+<!--pages/wrongBook/wrongBook.wxml-->
+<view class='wrongTitle'>错题本:</view>
+<view wx:for="{{Ques}}" wx:for-index="i">
+  <!-- <view>第{{showNo[i]}}题：</view> -->
+  <view class="audio-view">
+    <audio src="{{Ques[i]}}" action="{{audioAction}}"> </audio>
+    <button class='play_button' size='mini' bindtap="audioPlay" disabled="{{disabledPlay}}">播放</button> 
+  </view>  
+  <view>你的选项：{{YAns[i]}}</view>
+  <view>正确选项：{{RAns[i]}}</view> 
+  <view>答错次数：{{waTime[i]}}</view>
+  <text>\n</text>
+</view>

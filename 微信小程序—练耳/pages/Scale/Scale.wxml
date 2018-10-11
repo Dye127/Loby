@@ -1,0 +1,14 @@
+<!--pages/Scale/Scale.wxml-->
+<view class='pageName'>{{PageTitle}}</view>
+<view class='con'>
+<button class='play' bindtap="voicePlay" disabled="{{disPlay}}">播放</button>
+<button class='newQ' disabled="{{disabledN}}" bindtap='nextQuestion'>新题目</button>
+</view>
+<view class='an_content'>
+  <button wx:for="{{answer}}" data-id='{{item.id}}' data-at='{{item.answerType}}' type="{{item.resultFlag?item.answerType:default}}" wx:for-item="item" wx:key="key" size='mini' bindtap='onClick' disabled="{{disabled}}" style='{{disabled?"color:#949A9B":"color:black"}}'>{{item.title}}</button>
+</view>
+ <view class="answer-result">{{answerResult}}</view> 
+<button class='reAn' wx:if="{{failureRe}}" bindtap='reAnswer'>重新回答</button>
+<!-- <button class='newQ' wx:if="{{success}}" hidden="{{hideNText?true:false}}" bindtap='nextQuestion'>新题目</button> -->
+<button class='showAns' wx:if="{{failureSh}}" bindtap='showAnswer'>查看答案{{shAnswer}}</button>  
+ 

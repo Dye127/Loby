@@ -1,0 +1,86 @@
+/**firstPage.wxss**/
+.navigator-Menu1 {
+  color:red;
+}
+.menu1{
+  margin-bottom: 5px
+}
+.navigator-Menu2 {
+  color:red;
+}
+.menu2{
+  margin-bottom: 5px
+}
+.navigator-Menu3{
+  color:red;
+}
+.menu3{
+  margin-bottom: 5px
+}
+.navigator-Menu4{
+  color:red;
+}
+.menu4{
+  margin-bottom: 5px
+}
+.navigator-Menu5{
+  color:red;
+}
+.menu5{
+  margin-bottom: 5px
+}
+.navigator-Menu6{
+  color:red;
+}
+.menu6{
+  margin-bottom: 5px
+}
+.navigator-Menu7{
+  color:red;
+}
+.menu7{
+  margin-bottom: 5px
+}
+.navigator-Menu8{
+  color:red;
+}
+.menu8{
+  margin-bottom: 5px
+}
+.navigator-Menu9{
+  color:red;
+}
+.menu9{
+  margin-bottom: 5px
+}
+.navigator-Menu10{
+  color:red;
+}
+.menu10{
+  margin-bottom: 5px
+}
+.navigator-Menu11{
+  color:red;
+}
+.menu11{
+  margin-bottom: 5px
+}
+.navigator-Menu12{
+  color:red;
+}
+.menu12{
+  margin-bottom: 5px
+}
+.navigator-Menu13{
+  color:red;
+}
+.menu13{
+  margin-bottom: 5px
+}
+.navigator-WA{
+  color:red;
+}
+.menu{
+  margin-left: 10px;
+  margin-top: 15px
+}
