@@ -1,0 +1,16 @@
+<view class='menu'>
+  <view class='menu1' bindtap='clickMenu1' hover-class="navigator-Menu1">1. 利地安调式，混合利地安调式</view>
+  <view class='menu2' bindtap='clickMenu2' hover-class="navigator-Menu2">2. 小调音阶</view>
+  <view class='menu3' bindtap='clickMenu3' hover-class="navigator-Menu3">3. 费里吉安调式和洛克里安调式</view>
+  <view class='menu4' bindtap='clickMenu4' hover-class="navigator-Menu4">4. 所有调式，和声小调式与旋律小调式</view>
+  <view class='menu5' bindtap='clickMenu5' hover-class="navigator-Menu5">5. 利地安调式和混合利地安调式中的全音和变音</view>
+  <view class='menu6' bindtap='clickMenu6' hover-class="navigator-Menu6">6. 旋律小调音阶，洛克里安调式和减和弦Dim</view>
+  <view class='menu7' bindtap='clickMenu7' hover-class="navigator-Menu7">7. 费里吉安调式，变调和减和弦</view>
+  <view class='menu8' bindtap='clickMenu8' hover-class="navigator-Menu8">8. 旋律小调，全音调式和降调式</view>
+  <view class='menu9' bindtap='clickMenu9' hover-class="navigator-Menu9">9. 第一课到第八课中所有的音阶和调式</view>
+  <view class='menu10' bindtap='clickMenu10' hover-class="navigator-Menu10">10. 和声小调式的衍生</view>
+  <view class='menu11' bindtap='clickMenu11' hover-class="navigator-Menu11">11. 两个五声音阶</view>
+  <view class='menu12' bindtap='clickMenu12' hover-class="navigator-Menu12">12. 所有调式 下行</view>
+  <view class='menu13' bindtap='clickMenu13' hover-class="navigator-Menu13">13. 和声小调式的衍生 下行</view>
+  <text>\n</text>
+</view>

@@ -1,0 +1,43 @@
+.pageName{
+  text-align: center
+}
+.con{
+  display: flex; 
+  flex-direction: row
+} 
+.play{
+  margin-top: 15px; 
+  width: 25%;
+  height: 70%;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.an_content button{
+  margin-top: 10px; 
+  display: flex; 
+  flex-direction: row;
+  width: 50%;
+  text-align:fit-content;
+  justify-content: center;
+}
+.audio-view{
+  margin-top: 10px;
+  color: red
+}
+.reAn{
+  margin-top: 20px;
+  text-align: center;
+  width: 70%
+}
+.showAns{
+  margin-top: 5px;
+  text-align: center;
+  width: 70%
+}
+.newQ{
+  height: 70%;
+  line-height: 40px;
+  margin-top: 15px;
+  width: 27%;
+  margin-bottom: 10px
+}
