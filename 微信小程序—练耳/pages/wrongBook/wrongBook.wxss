@@ -1,0 +1,23 @@
+/* pages/wrongBook/wrongBook.wxss */
+.wrongTitle{
+  text-align: center
+}
+.navigator-minor {
+    color:red;
+}
+.navigator-major {
+    color:red;
+}
+.navigator-PL{
+    color:red;
+}
+.navigator-Quarter1-3{
+  color:red;
+}
+.navigator-WA{
+  color:red;
+}
+.waMenu{
+    margin-left: 20px;
+    margin-top: 20px
+}
